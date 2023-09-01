@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    font-family: 'Athiti', sans-serif;
+    font-size:18px;
+    
+    
+}
+
+.fa-solid fa-star fa-2xs{
+    padding:10px;
+    font-size:10px;
+}
+
+ul {
+    list-style: none; 
+    padding-left: 0; 
+}
+
+.degrade h1{
+    font-family: 'Athiti', sans-serif;
+}
+
+h1, h2, h3 {
+   font-family: 'Merienda', cursive; 
+   text-align:center;
+   margin:auto;
+   padding:20px;
+}
+
+h1{
+    font-size:30px;
+    
+}
+
+h2 {
+    font-size:25px;
+}
+
+h3 {
+    font-size:20px;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.degrade{
+    height:200px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#ebe3db 30%, white);
+    padding-top:30px;
+  
+}
+
+.logo{
+    height:150px;
+    width:150px;
+    overflow:hidden;
+}
+
+img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+
+nav{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   width:100%;
+   
+    
+}
+
+nav a {
+    text-decoration: none; 
+    background-color: #ebe3db;
+    color:black;
+    font-weight:bold;
+    
+    width:100%;
+    text-align:center;
+}
+
+nav a:hover {
+    background-color: #4c4343;
+    color:white;
+}
+
+.carte-menu{
+    background-color: #ebe3db;
+    margin:20px;
+}
+
+.menu-img{
+    width: 100%;
+    height:400px;
+}
+
+.menu-img img{
+    
+}
+
+ul {
+    margin-left:20px;
+}
+
+li{
+    border-bottom: 1px dotted;
+}
